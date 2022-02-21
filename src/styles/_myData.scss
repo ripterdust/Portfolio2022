@@ -27,12 +27,13 @@
         align-items: center;
         
         .projectCardHello{
+
             .card{
                 width: 100%;
                 height: 100%;
                 background: $base-terminal;
                 border: 1px solid $border;
-                border-radius: 5px;
+                border-radius: 2%;
             }
         
         }
@@ -47,8 +48,10 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
-        .name, .projects {
+        .name{
+            height: 40%;
+        }
+        .projects {
             height: 50%;
         }
         .name > * {
