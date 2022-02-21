@@ -1,9 +1,10 @@
 nav {
     background: $base-color;
-    
+    display: flex;
+    justify-content: left;
+    align-items: center;
     a {
-        background: white;
-        height: 1em;
-        background: $base-terminal;
+        padding: 1em 1.2em;
+        border: 1px solid $base-terminal;
     }
 }
