@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Buttons } from "../components/Buttons"
+import { Footer } from "../components/Footer"
 import { Hello } from "../components/Hello"
 import { Nav } from "../components/Nav"
 
@@ -12,7 +13,7 @@ export const MainRouter = () => {
             <Routes>
                 <Route path='/' element={ <Hello/> } />
             </Routes>
-
+            <Footer/>
         </BrowserRouter>
     </div>
 }
