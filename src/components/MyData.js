@@ -17,7 +17,13 @@ export const MyData = () => {
       <Link to="project" className="projectCardHello">
         <div className="card">
           <div className="text"></div>
-          <div className="terminal"></div>
+          <div className="terminal">
+            pasdfasdf
+          </div>
+          <div className="hover">
+
+              <div className="button" >See projects</div>
+          </div>
         </div>
       </Link>
     </div>
