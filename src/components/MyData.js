@@ -15,7 +15,10 @@ export const MyData = () => {
     </div>
     <div className="projects">
       <Link to="project" className="projectCardHello">
-        a
+        <div className="card">
+          <div className="text"></div>
+          <div className="terminal"></div>
+        </div>
       </Link>
     </div>
   </div>
