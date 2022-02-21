@@ -1,5 +1,10 @@
 export const MyData = () => {
-  return (
-    <div>MyData</div>
-  )
+  return <div className="myData">
+    <div className="name">
+      asdfasdf
+    </div>
+    <div className="projects">
+      Projects
+    </div>
+  </div>
 }
