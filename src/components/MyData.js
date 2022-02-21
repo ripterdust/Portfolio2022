@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const MyData = () => {
   return <div className="myData">
     <div className="name">
@@ -12,7 +14,9 @@ export const MyData = () => {
       </div>
     </div>
     <div className="projects">
-      Projects
+      <Link to="project" className="projectCardHello">
+        a
+      </Link>
     </div>
   </div>
 }

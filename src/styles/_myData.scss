@@ -20,6 +20,17 @@
         }
     }
 
+    .projects{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .projectCardHello{
+            background: white;
+        
+        }
+    }
+
 }
 
 
@@ -42,6 +53,13 @@
             font-size: 40px;
             white-space: nowrap;
         }
+
+        .projects{
+            .projectCardHello{
+                width: 80%;
+                height: 80%;
+            }
+        }
     }
 }
 
@@ -63,5 +81,14 @@
         .dev{
             margin-bottom: 2.5em;
         }
+
+        .projects{
+            .projectCardHello{
+                width: 50%;
+                height: 50%;
+            }
+        }
+
+        
     }
 }
