@@ -5,6 +5,6 @@ export const Buttons = () => {
             <div className="button yellow"></div>
             <div className="button green"></div>
         </div>
-        <div className="name">Bryan Guillermo Arévalo</div>
+        <div className="name">$Bryan</div>
     </div>
 }
