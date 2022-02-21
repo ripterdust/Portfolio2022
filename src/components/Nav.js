@@ -3,12 +3,16 @@ import './Nav'
 
 export const Nav = () => {
     
-    return <div>
+    return <nav>
         <Link to='/'>_hello</Link>
         <Link to='/about'>_about</Link>
         <Link to='/project'>_projects</Link>
 
+        asdf
 
-    </div>
+        asdf
+        asdf
+        
+    </nav>
 
 };
