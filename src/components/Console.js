@@ -9,7 +9,7 @@ export const Console = ({ command }) => {
 
   return <div>
     {
-      autocomplete != '' ? `Maybe you want to say: ${autocomplete}.` : 'Type "help" to see the commands.'
+      autocomplete !== '' ? `Maybe you want to say: ${autocomplete}.` : 'Type "help" to see the commands.'
     }
   </div>
 }
