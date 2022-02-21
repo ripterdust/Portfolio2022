@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import { useState } from "react"
 
 export const Footer = () => {
-
-  const [date, setDate] = useState('1:37 21/02/2022');
   
+  let date = new Date()
+
   return (
     <div className='footer'>
       <div className="social">
@@ -14,7 +14,7 @@ export const Footer = () => {
       </div>
       <div className="time">
         {
-          date
+          date.toLocaleDateString()
         }
       </div>
     </div>
