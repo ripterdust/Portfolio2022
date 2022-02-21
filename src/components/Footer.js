@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <div className='footer'>
       <div className="social">
-        <div className='item' >Find me in:</div>
+        <div className='item' >Social:</div>
         <a className='item' href="">link</a>
         <a className='item' href="">link</a>
         <a className='item' href="">link</a>
