@@ -16,7 +16,7 @@ export const Hello = () => {
         <input type="text" value={command} onChange={(e) => setCommand(e.target.value)} placeholder="Type your command..." />
       </div>
       <div className="terminal-function">
-        { command == '' ? <MyData/> : <Console command={command}/> }
+        { command === '' ? <MyData/> : <Console command={command}/> }
       </div>
     </div>
   )
