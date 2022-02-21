@@ -9,7 +9,6 @@ export const MainRouter = () => {
         <BrowserRouter>
             <Buttons/>
             <Nav/>  
-            <div className="line"></div>
             <div className="views">
             <Routes>
                 <Route path='/' element={ <Hello/> } />
