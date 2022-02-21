@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 import { Buttons } from "../components/Buttons"
-import { Nav } from "../components/Nav/Nav"
+import { Nav } from "../components/Nav"
 
 export const MainRouter = () => {
     return <div className="terminal">
