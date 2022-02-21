@@ -34,7 +34,37 @@
                 height: 100%;
                 background: $base-terminal;
                 border: 1px solid $border;
-                border-radius: 2%;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .text{
+                    width: 100%;
+                    padding: 1em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .title{
+                        color: $terminal-yellow;
+                    }
+
+                    .commit{
+                        font-size: 13px;
+                    }
+
+                }
+                .terminal-project{
+                    padding: 1em;
+                    background: $base-color;
+                    display: flex;
+                    width: 90%;
+                    border-radius: 5px;
+                    height: 70%;
+                    margin-bottom: 1em;
+                }
             }
 
             .hover{
@@ -45,6 +75,7 @@
                 opacity: 0;
                 transition: .2s ease-in-out;
                 filter: blur(3px);
+                background: blur(3px);
 
                 .button{
                     background: $terminal-yellow;

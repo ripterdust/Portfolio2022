@@ -16,10 +16,18 @@ export const MyData = () => {
     <div className="projects">
       <Link to="project" className="projectCardHello">
         <div className="card">
-          <div className="text"></div>
-          <div className="terminal">
-            pasdfasdf
+          <div className="text">
+            <div className="title">Projects</div>
+            <div className="commit">12 commits</div>
           </div>
+          <div className="terminal-project">
+            /* <br />
+            * Here you can find <br />
+            * A complete list <br />
+            * Of all my projects <br />
+            */
+          </div>
+
           <div className="hover">
 
               <div className="button" >See projects</div>
