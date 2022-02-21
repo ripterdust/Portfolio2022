@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Console } from "./Console";
+import { MyData } from "./MyData";
 
 export const Hello = () => {
 
@@ -14,7 +15,9 @@ export const Hello = () => {
         </div>
         <input type="text" value={command} onChange={(e) => setCommand(e.target.value)} placeholder="Type your command..." />
       </div>
-      { command == '' ? 'Vacio' : <Console command={command}/> }
+      <div className="terminal-function">
+        { command == '' ? <MyData/> : <Console command={command}/> }
+      </div>
     </div>
   )
 }
