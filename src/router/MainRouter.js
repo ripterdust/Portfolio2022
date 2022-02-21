@@ -10,9 +10,11 @@ export const MainRouter = () => {
             <Buttons/>
             <Nav/>  
             <div className="line"></div>
+            <div className="views">
             <Routes>
                 <Route path='/' element={ <Hello/> } />
             </Routes>
+            </div>
             <Footer/>
         </BrowserRouter>
     </div>
