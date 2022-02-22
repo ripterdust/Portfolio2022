@@ -8,7 +8,7 @@ export const TaskBar = () => {
       <i class="fa-brands fa-windows so-icon"></i>
       </div>
       <div id='task-terminal' className='icon'>
-        <i class="fa-solid fa-terminal terminal-icon" ></i>
+        <i class="fa-solid fa-terminal terminal-icon-logo" ></i>
       </div>
 
       <div className="icon">
