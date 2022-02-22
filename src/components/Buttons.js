@@ -1,8 +1,9 @@
 export const Buttons = () => {
 
     const handleClick = () => {
-        let terminal = document.querySelector('#terminal')
-        terminal.remove('terminal')
+        let terminal = document.querySelector('#terminal').classList;
+        terminal.remove('terminal');
+        terminal.add('hiden')
 
     }
 
