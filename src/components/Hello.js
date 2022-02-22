@@ -11,6 +11,13 @@ export const Hello = () => {
 
   const { command, clear} = state;
 
+  const inputKeyUp = (e) => {
+    let keyCode = e.keyCode || e.wich;
+
+    if(keyCode == 13) setState(data => ({...data, clear: true}))
+
+  }
+
 
   return (
     <div className="hello">
@@ -18,7 +25,14 @@ export const Hello = () => {
         <div className="sign">
           $
         </div>
-        <input type="text" value={command} onChange={(e) => setState(state => ({...state, command : e.target.value}))} placeholder="Type your command..." />
+        <input 
+          type="text" 
+          value={command} 
+          onChange={(e) => 
+          setState(state => ({...state, command : e.target.value}))} 
+          placeholder="Type your command..." 
+          onKeyUp={e => inputKeyUp(e)}
+          />
       </div>
       <div className="terminal-function">
 
