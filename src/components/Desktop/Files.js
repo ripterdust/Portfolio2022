@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Files = () => {
   return (
-    <div id='folder' >Files</div>
+    <div id='files' className='files' >Files</div>
   )
 }

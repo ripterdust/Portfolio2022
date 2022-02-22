@@ -12,7 +12,7 @@ export const Desktop = () => {
           Portfolio<br />[Terminal]
         </div>
 
-        <div className="icon" onClick={() => handleClick('folder', 'folder') }>
+        <div className="icon" onClick={() => handleClick('files', 'folder') }>
           <i class="fa-solid fa-folder folder"></i>
           Files
         </div>
