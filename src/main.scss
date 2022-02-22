@@ -14,14 +14,18 @@ a{
 }
 .window{
     width: 100%;
-    height: 95vh;
-    padding: 1.5em
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 .views {
     height: calc(100% - 2.5em - 1.5em - 2em);
 }
 
+@import './styles/desktop';
 @import './styles/terminal';
 @import './styles/buttons';
 @import './styles/nav';

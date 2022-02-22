@@ -2,6 +2,6 @@ import React from 'react'
 
 export const TaskBar = () => {
   return (
-    <div>TaskBar</div>
+    <div className='taskbar'>TaskBar</div>
   )
 }
