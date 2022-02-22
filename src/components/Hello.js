@@ -1,15 +1,19 @@
 import { useState } from "react";
+import { DataContext } from "../context/useData";
 import { Console } from "./Console";
 import { MyData } from "./MyData";
 
 export const Hello = () => {
 
-  const [state, setState] = useState({
+
+  const data = useState({
     command: '',
     clearScreen: false
   });
 
-  const { command, clearScreen} = state;
+  const [state, setState] = data;
+
+  const {command, clearScreen} = state;
 
   const inputKeyUp = (e) => {
     let keyCode = e.keyCode || e.wich;
@@ -19,7 +23,7 @@ export const Hello = () => {
   }
 
 
-  return (
+  return (<DataContext.Provider value={data}>
     <div className="hello">
       <div className="command">
         <div className="sign">
@@ -42,5 +46,6 @@ export const Hello = () => {
         }
       </div>
     </div>
+  </DataContext.Provider>
   )
 }

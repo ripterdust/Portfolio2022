@@ -6,7 +6,6 @@ export const Console = ({ command, clearScreen, stateClear }) => {
 
   const { list, commands : exec } = listOfCommands;
 
-  console.log(stateClear())
 
   let autocomplete = list.filter( word => word.includes(command));
 
@@ -15,7 +14,7 @@ export const Console = ({ command, clearScreen, stateClear }) => {
   return <div className='animate__animated animate__fadeIn'>
     
     {
-      !clearScreen ? 
+      clearScreen === false ? 
       <Instructions autocomplete={autocomplete}/> :
       fun ? command === 'clear' || command === 'cls' && stateClear(data => ({...data, clearScreen : false})) : 'An error has ocurred'
     }
