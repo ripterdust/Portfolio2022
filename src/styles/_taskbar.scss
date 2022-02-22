@@ -60,7 +60,7 @@
         }
         .startMenu{
             position: absolute;
-            width: 10em;
+            width: 15em;
             height: 50vh;
             transition: .3s ease-in;
             left: 50%;
@@ -68,8 +68,9 @@
 
             .Bg{
                 transition: .3s;
-                background: $base-color;
+                background: lighten($base-terminal, 3%);
                 width: 100%;
+                color: ($text-ligth);
             }
 
 
