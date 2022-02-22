@@ -11,6 +11,12 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        transition: .1s ease-in-out;
+        padding: 0 1em;
+        &:hover{
+            background: lighten($base-terminal, 5%);
+            cursor: pointer;
+        }
         .terminal-icon{
             color: white;
         }
