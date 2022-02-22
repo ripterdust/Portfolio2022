@@ -3,7 +3,7 @@ import { Buttons } from '../Buttons'
 
 export const Files = () => {
   return (
-    <div id='files' className='files' >
+    <div id='files' className='hiden' >
       <Buttons classToHide = { 'files' } />
 
     </div>
