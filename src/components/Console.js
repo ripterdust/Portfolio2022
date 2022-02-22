@@ -14,7 +14,7 @@ export const Console = ({ command, clearScreen, stateClear }) => {
     
     {
       clearScreen === false ? 
-      <Instructions autocomplete={autocomplete}/> : <Command text={autocomplete} />
+      <Instructions autocomplete={autocomplete}/> : <div className="commandComponent"><Command text={autocomplete} /></div>
     }
 
     
