@@ -27,6 +27,10 @@
             cursor: pointer;
             text-align: center;
 
+            &:active i {
+                transform: scale(.8);
+            }
+
             .terminal-icon{
                 background: black;
                 font-size: 20px;
