@@ -1,17 +1,7 @@
 import React from 'react'
+import { handleClick } from '../helpers/desktopHelper'
 
 export const Desktop = () => {
-
-  const handleClick = (id, elemClass) => {
-    const element = document.querySelector(`#${id}`).classList;
-    const task = document.querySelector(`#task-${elemClass}`).classList;
-    console.log(task)
-    task.remove('hiden')
-    task.add('icon')
-    element.remove('hiden');
-    element.add(elemClass);
-
-  }
 
   return (
     <div className='desktop'>
@@ -21,7 +11,7 @@ export const Desktop = () => {
           Portfolio<br />[Terminal]
         </div>
 
-        <div className="icon">
+        <div className="icon" onClick={() => handleClick('folder', 'folder') }>
           <i class="fa-solid fa-folder folder"></i>
           Files
         </div>

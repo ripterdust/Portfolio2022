@@ -16,7 +16,7 @@ export const TaskBar = () => {
         <i class="fa-solid fa-terminal terminal-icon-logo" ></i>
       </div>
 
-      <div className="hiden">
+      <div className="hiden" id="task-folder">
         <i class="fa-solid fa-folder folder"></i>
       </div>
     </div>
