@@ -21,11 +21,11 @@ export const MyData = () => {
             <div className="commit">12 commits</div>
           </div>
           <div className="terminal-project">
-            /* <br />
+            \/* <br />
             * Here you can find <br />
             * A complete list <br />
             * Of all my projects <br />
-            */
+            *\/
           </div>
 
           <div className="hover">

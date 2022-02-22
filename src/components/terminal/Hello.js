@@ -18,7 +18,7 @@ export const Hello = () => {
   const inputKeyUp = (e) => {
     let keyCode = e.keyCode || e.wich;
 
-    if(keyCode == 13) setState(data => ({...data, clearScreen: true}))
+    if(keyCode === 13) setState(data => ({...data, clearScreen: true}))
 
   }
 
