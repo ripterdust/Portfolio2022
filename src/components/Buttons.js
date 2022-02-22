@@ -2,8 +2,6 @@ import { handleClick } from "../helpers/buttons"
 
 export const Buttons = () => {
 
-    
-
     return <div className="top">
         <div className="buttons">
             <div className="button red" onClick={ handleClick }></div>
