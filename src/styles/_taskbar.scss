@@ -14,7 +14,7 @@
         transition: .1s ease-in-out;
         padding: 0 1em;
         
-        &:active{
+        &:active i{
             transform: scale(.8);
         }
 
@@ -37,5 +37,20 @@
             color: white;
         }
         
+    }
+
+    .start{
+        position: relative;
+        .startMenu{
+            position: absolute;
+            width: 1em;
+            background: $base-color;
+            height: 50vh;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+
+
+        }
     }
 }

@@ -2,6 +2,6 @@ import React from 'react'
 
 export const StartMenu = () => {
   return (
-    <div>StartMenu</div>
+    <div className='startMenu open' id="menu">StartMenu</div>
   )
 }
