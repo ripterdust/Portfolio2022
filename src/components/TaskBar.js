@@ -10,6 +10,10 @@ export const TaskBar = () => {
       <div id='task-terminal' className='icon'>
         <i class="fa-solid fa-terminal terminal-icon" ></i>
       </div>
+
+      <div className="icon">
+        <i class="fa-solid fa-folder folder"></i>
+      </div>
     </div>
   )
 }
