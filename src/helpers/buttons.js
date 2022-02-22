@@ -4,6 +4,7 @@ export const handleClick = () => {
     terminal.add('hiden')
 
     let taskTerminal = document.querySelector('#task-terminal').classList;
+    taskTerminal.remove('icon')
     taskTerminal.add('hiden')
 
 }
