@@ -7,7 +7,7 @@ export const Console = ({ command }) => {
 
   let autocomplete = list.filter( word => word.includes(command));
 
-  return <div>
+  return <div className='animate__animated animate__fadeIn'>
     {
       autocomplete !== '' ? `Maybe you want to say: ${autocomplete}.` : 'Type "help" to see the commands.'
     }
