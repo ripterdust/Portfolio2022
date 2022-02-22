@@ -7,7 +7,7 @@ import { Nav } from "../components/Nav"
 import { Projects } from "../components/Projects"
 
 export const MainRouter = () => {
-    return <div className="terminal">
+    return <div className="terminal" id="terminal">
         <BrowserRouter>
             <Buttons/>
             <Nav/>  
