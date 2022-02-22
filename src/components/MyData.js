@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 
 export const MyData = () => {
-  return <div className="myData">
+  return <div className="myData animate__animated animate__fadeIn">
     <div className="name">
       <div className="text">
         Hello! I'm
