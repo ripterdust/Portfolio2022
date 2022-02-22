@@ -12,6 +12,12 @@ a{
     color: $text-ligth;
     text-decoration: none;
 }
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
 .window{
     width: 100%;
     height: 100vh;

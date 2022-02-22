@@ -4,4 +4,34 @@
     background: url('../../public/img/wallpaper.jpg');
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    flex-direction: column;
+    padding: 2em 1em;
+
+    .icons{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        white-space: pre-wrap;
+        align-items: left;
+        justify-content: left;
+
+        .icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 80px;
+            cursor: pointer;
+            text-align: center;
+            i{
+                background: black;
+                font-size: 20px;
+                padding: 10px;
+                margin-bottom: .5em;
+            }
+        }
+    }
 }
