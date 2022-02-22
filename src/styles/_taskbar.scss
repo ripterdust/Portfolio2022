@@ -41,14 +41,36 @@
 
     .start{
         position: relative;
+        transition: .3s;
+        .open{
+            bottom: 100%;
+            .Bg{
+                height: 100%;
+                transition: .3s;
+            }
+        }
+
+        .close{
+            top: 100%;
+            .Bg{
+                height: 0;
+                transition: .3s;
+            }
+
+        }
         .startMenu{
             position: absolute;
-            width: 1em;
-            background: $base-color;
+            width: 10em;
             height: 50vh;
-            bottom: 100%;
+            transition: .3s ease-in;
             left: 50%;
             transform: translateX(-50%);
+
+            .Bg{
+                transition: .3s;
+                background: $base-color;
+                width: 100%;
+            }
 
 
         }
