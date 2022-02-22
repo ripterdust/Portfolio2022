@@ -1,5 +1,6 @@
 import React from 'react'
 import { handleClick } from '../helpers/desktopHelper'
+import { Files } from './Desktop/Files'
 
 export const Desktop = () => {
 
@@ -16,6 +17,8 @@ export const Desktop = () => {
           Files
         </div>
       </div>
+
+      <Files/>
     </div>
   )
 }
