@@ -20,6 +20,11 @@ export const Desktop = () => {
           <i class="fa-solid fa-terminal terminal-icon"></i>
           Portfolio<br />[Terminal]
         </div>
+
+        <div className="icon">
+          <i class="fa-solid fa-folder folder"></i>
+          Files
+        </div>
       </div>
     </div>
   )
