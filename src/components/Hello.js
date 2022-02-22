@@ -4,7 +4,12 @@ import { MyData } from "./MyData";
 
 export const Hello = () => {
 
-  const [command, setCommand] = useState('');
+  const [state, setState] = useState({
+    command: '',
+    clear: false
+  });
+
+  const { command, clear} = state;
 
 
   return (
@@ -13,7 +18,7 @@ export const Hello = () => {
         <div className="sign">
           $
         </div>
-        <input type="text" value={command} onChange={(e) => setCommand(e.target.value)} placeholder="Type your command..." />
+        <input type="text" value={command} onChange={(e) => setState(state => ({...state, command : e.target.value}))} placeholder="Type your command..." />
       </div>
       <div className="terminal-function">
         { command === '' ? <MyData/> : <Console command={command}/> }
