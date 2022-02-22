@@ -4,7 +4,7 @@ import { Instructions } from './Instructions';
 
 export const Console = ({ command, clear }) => {
 
-  const { list, commands } = listOfCommands;
+  const { list, commands : exec } = listOfCommands;
 
   let autocomplete = list.filter( word => word.includes(command));
 
@@ -13,7 +13,7 @@ export const Console = ({ command, clear }) => {
     {
       !clear ? 
       <Instructions autocomplete={autocomplete}/> :
-      'Un error ha ocurrido'
+      'limpio'
     }
 
     
