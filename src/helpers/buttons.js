@@ -3,4 +3,7 @@ export const handleClick = () => {
     terminal.remove('terminal');
     terminal.add('hiden')
 
+    let taskTerminal = document.querySelector('#task-terminal').classList;
+    taskTerminal.add('hiden')
+
 }
