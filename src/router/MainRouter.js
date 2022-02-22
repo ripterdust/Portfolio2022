@@ -9,7 +9,7 @@ import { Projects } from "../components/Projects"
 export const MainRouter = () => {
     return <div className="terminal animate__animated animate__fadeIn" id="terminal">
         <BrowserRouter>
-            <Buttons/>
+            <Buttons classToHide={ 'terminal' }/>
             <Nav/>  
             <div className="views">
             <Routes>
