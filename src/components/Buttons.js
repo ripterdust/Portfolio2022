@@ -1,11 +1,8 @@
+import { handleClick } from "../helpers/buttons"
+
 export const Buttons = () => {
 
-    const handleClick = () => {
-        let terminal = document.querySelector('#terminal').classList;
-        terminal.remove('terminal');
-        terminal.add('hiden')
-
-    }
+    
 
     return <div className="top">
         <div className="buttons">
