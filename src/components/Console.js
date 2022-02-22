@@ -10,7 +10,7 @@ export const Console = ({ command }) => {
   return <div className='animate__animated animate__fadeIn'>
     
     {
-      autocomplete != '' && `Maybe you want to write ${autocomplete}`
+      autocomplete != '' && `Maybe you want to write: ${autocomplete}`
     }
     <br />
     <br />
