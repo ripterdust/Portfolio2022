@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { About } from "../components/About"
+import { About } from "../components/terminal/About"
 import { Buttons } from "../components/Buttons"
-import { Footer } from "../components/Footer"
+import { Footer } from "../components/terminal/Footer"
 import { Hello } from "../components/Hello"
-import { Nav } from "../components/Nav"
-import { Projects } from "../components/Projects"
+import { Nav } from "../components/terminal/Nav"
+import { Projects } from "../components/terminal/Projects"
 
 export const MainRouter = () => {
     return <div className="terminal animate__animated animate__fadeIn" id="terminal">
