@@ -6,15 +6,15 @@ export const Hello = () => {
 
   const [state, setState] = useState({
     command: '',
-    clear: false
+    clearScreen: false
   });
 
-  const { command, clear} = state;
+  const { command, clearScreen} = state;
 
   const inputKeyUp = (e) => {
     let keyCode = e.keyCode || e.wich;
 
-    if(keyCode == 13) setState(data => ({...data, clear: true}))
+    if(keyCode == 13) setState(data => ({...data, clearScreen: true}))
 
   }
 
@@ -38,8 +38,7 @@ export const Hello = () => {
 
         
         { 
-          !clear ? command === '' ? <MyData/> : <Console command={command} clear={clear} /> :
-          'Acá irá la función'
+         command === '' ? <MyData/> : <Console command={command} clearScreen={clearScreen} stateClear={ setState } /> 
         }
       </div>
     </div>

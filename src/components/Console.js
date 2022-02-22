@@ -2,18 +2,22 @@ import React from 'react'
 import { listOfCommands } from '../commands/listOfCommands'
 import { Instructions } from './Instructions';
 
-export const Console = ({ command, clear }) => {
+export const Console = ({ command, clearScreen, stateClear }) => {
 
   const { list, commands : exec } = listOfCommands;
 
+  console.log(stateClear())
+
   let autocomplete = list.filter( word => word.includes(command));
+
+  let fun = exec[command]?.function();
 
   return <div className='animate__animated animate__fadeIn'>
     
     {
-      !clear ? 
+      !clearScreen ? 
       <Instructions autocomplete={autocomplete}/> :
-      'limpio'
+      fun ? command === 'clear' || command === 'cls' && stateClear(data => ({...data, clearScreen : false})) : 'An error has ocurred'
     }
 
     
