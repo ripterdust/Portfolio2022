@@ -5,7 +5,7 @@ export const TaskBar = () => {
   return (
     <div className='taskbar'>
       <div className="icon">
-        <div className="so"></div>
+      <i class="fa-brands fa-windows so-icon"></i>
       </div>
       <div id='task-terminal' className='icon'>
         <i class="fa-solid fa-terminal terminal-icon" ></i>
