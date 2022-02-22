@@ -1,7 +1,7 @@
 import React from 'react'
-import { list } from '../commands/listOfCommands'
-import { Command } from './Command';
-import { Instructions } from './Instructions';
+import { list } from '../../commands/listOfCommands'
+import { Command } from '../Command';
+import { Instructions } from '../Instructions';
 
 export const Console = ({ command, clearScreen, stateClear }) => {
 
