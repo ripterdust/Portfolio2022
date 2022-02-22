@@ -10,13 +10,17 @@ export const Command = ({text }) => {
   if(text){
     if(text == 'help'){
 
+      let sorted = list.sort()
+
       return <div>
         Thanks for using my terminal. 
 
         The list of commands is: 
+
+    
         <ul>
           {
-            list.map(element => <li>{element}</li>)
+            sorted.map(element => <li>{element}</li>)
           }
         </ul>
 
