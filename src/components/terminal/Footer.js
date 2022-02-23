@@ -10,13 +10,13 @@ export const Footer = () => {
             className='item' 
             href="https://github.com/ripterdust" 
             target='_blank' rel="noreferrer">
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
             </a>
           <a className='item' href="https://www.linkedin.com/in/bryan-ar%C3%A9valo-353901182/" target='_blank' rel="noreferrer">
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </a>
           <a className='item' href="mailto:bryantello2010@hotmail.com" target='_blank' rel="noreferrer">
-              <i class="fa-solid fa-at"></i>
+              <i className="fa-solid fa-at"></i>
             </a>
       </div>
       <div className="time">
