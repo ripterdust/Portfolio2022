@@ -8,12 +8,12 @@ export const Desktop = () => {
     <div className='desktop'>
       <div className="icons">
         <div className="icon" onClick={() => handleClick('terminal', 'terminal')}>
-          <i class="fa-solid fa-terminal terminal-icon"></i>
+          <i className="fa-solid fa-terminal terminal-icon"></i>
           Portfolio<br />[Terminal]
         </div>
 
         <div className="icon" onClick={() => handleClick('files', 'files') }>
-          <i class="fa-solid fa-folder folder"></i>
+          <i className="fa-solid fa-folder folder"></i>
           Files
         </div>
       </div>
