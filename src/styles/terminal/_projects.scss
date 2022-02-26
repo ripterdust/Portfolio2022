@@ -1,0 +1,6 @@
+.projectsComponent{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr*3;
+    column-gap: 1em;
+}

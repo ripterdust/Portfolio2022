@@ -5,7 +5,7 @@ export const ProjectCard = ({ data }) => {
   const { name, repo, img, link } = data;
 
   console.log(data)
-  return <div className="card">
+  return <div className="cardProject">
     <img src={img} alt={name} />
     <div className="name">{name}</div>
     <a href={repo} className="link" target="_blank" rel="noreferrer" >Repository</a>
