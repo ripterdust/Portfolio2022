@@ -8,7 +8,7 @@ export const ProjectCard = ({ data }) => {
   return <div className="cardProject">
     <div className="img">
       <img src={img} alt={name} />
-      <a href={repo} className="link"><span>See the repo</span></a>
+      <a href={repo} className="link" target="_blank" rel="noreferrer"><span>See the repo</span></a>
     </div>
     <div className="name">{name}</div>
 
