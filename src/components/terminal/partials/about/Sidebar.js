@@ -5,7 +5,7 @@ export const Sidebar = () => {
     <div className='sidebar'>
       Explorer: <i class="fa-solid fa-folder-tree"></i>
       <ul className='parentList'>
-        <li><i class="fa-solid fa-folder-open"></i> React</li>
+        <li><i class="fa-solid fa-folder-open blue"></i> React</li>
         <li><i class="fa-solid fa-folder-open green"></i> Node.js</li>
         <li><i class="fa-solid fa-folder-open orange"></i> Mysql</li>
         <li><i class="fa-solid fa-folder-open yellow"></i> Jest</li>
