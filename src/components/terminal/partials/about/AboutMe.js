@@ -14,12 +14,12 @@ export const AboutMe = () => {
         </div>
 
         <div className="technologies">
-            <i class="fa-brands fa-js"></i>
-            <i class="fa-brands fa-react"></i>
-            <i class="fa-brands fa-node"></i>
-            <i class="fa-brands fa-python"></i>
-            <i class="fa-brands fa-git"></i>
-            <i class="fa-solid fa-database"></i>        
+            <i className="fa-brands fa-js"></i>
+            <i className="fa-brands fa-react"></i>
+            <i className="fa-brands fa-node"></i>
+            <i className="fa-brands fa-python"></i>
+            <i className="fa-brands fa-git"></i>
+            <i className="fa-solid fa-database"></i>        
         </div>
 
     </div>
