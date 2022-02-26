@@ -1,7 +1,7 @@
 .projectsComponent{
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 1.5em;
     padding: 2em 3em;
     overflow-y: scroll;
