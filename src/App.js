@@ -4,7 +4,7 @@ import { MainRouter } from "./router/MainRouter";
 
 function App() {
   return <div className="window">
-
+      <div className="turnOn"></div>
       <Desktop/>
       <MainRouter/>
 
