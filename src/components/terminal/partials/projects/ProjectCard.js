@@ -8,10 +8,13 @@ export const ProjectCard = ({ data }) => {
   return <div className="cardProject">
     <img src={img} alt={name} />
     <div className="name">{name}</div>
-    <a href={repo} className="link" target="_blank" rel="noreferrer" >Repository</a>
-    {
-      link && <a href={link} className="link" target="_blank" rel="noreferrer" >Deploy</a>
-    }
+
+    <div className="buttons">
+      <a href={repo} className="link" target="_blank" rel="noreferrer" >Repository</a>
+      {
+        link && <a href={link} className="link" target="_blank" rel="noreferrer" >Deploy</a>
+      }
+    </div>
 
 
   </div>
