@@ -13,6 +13,34 @@ export const AboutMe = () => {
             */
         </div>
 
+        <div className="technologies">
+            <div>
+                <i class="fa-brands fa-js"></i>
+                Javascript & Typescript
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                Python & Django
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                React
+            </div>
+            <div>
+                <i class="fa-brands fa-node"></i>
+                Node & Express.js
+            </div>
+            <div>
+                <i class="fa-brands fa-git"></i>
+                Git
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                MySQL & MongoDB
+            </div>
+            
+        </div>
+
     </div>
   )
 }
