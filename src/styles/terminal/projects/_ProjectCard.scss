@@ -21,9 +21,14 @@
         align-items: center;
         padding: .3em;
         .link{
-            background: $border;
             padding: .5em;
             border-radius: 1em;
+            border: 1px solid $border;
+            font-size: 13px;
+            &:hover{
+                background: $border;
+                color: white;
+            }
         }
     }
 }
