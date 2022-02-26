@@ -5,7 +5,7 @@ import { MainRouter } from "./router/MainRouter";
 function App() {
   return <div className="window">
       <div className="turnOn">
-        <i class="fa-solid fa-circle-notch"></i>
+        <i class="fa-solid fa-spinner"></i>
         Turning On
       </div>
       <Desktop/>
