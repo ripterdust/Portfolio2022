@@ -1,12 +1,26 @@
 export const projectList = [
     {
         name: 'Tip-Calculator',
-        img: 'hola',
+        img: '/img/tip-calculator.png',
         link: 'https://ripterdust.github.io/TipCalculator/',
         repo: 'https://github.com/ripterdust/TipCalculator'
     },
     {
-        name: 'E-commerce',
-        img: 'Url'
+        name: 'Tip-Calculator',
+        img: '/img/tip-calculator.png',
+        link: 'https://ripterdust.github.io/TipCalculator/',
+        repo: 'https://github.com/ripterdust/TipCalculator'
+    },
+    {
+        name: 'Tip-Calculator',
+        img: '/img/tip-calculator.png',
+        link: 'https://ripterdust.github.io/TipCalculator/',
+        repo: 'https://github.com/ripterdust/TipCalculator'
+    },
+    {
+        name: 'Tip-Calculator',
+        img: '/img/tip-calculator.png',
+        link: 'https://ripterdust.github.io/TipCalculator/',
+        repo: 'https://github.com/ripterdust/TipCalculator'
     }
 ]
