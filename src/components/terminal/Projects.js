@@ -6,7 +6,7 @@ export const Projects = () => {
   return (
     <div className='animate__animated animate__fadeIn projectsComponent'>
       {
-        projectList.map(elem => <ProjectCard/>)
+        projectList.map((elem, key) => <ProjectCard data={ elem } key={key} />)
       }
     </div>
   )
