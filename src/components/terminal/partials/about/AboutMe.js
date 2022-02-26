@@ -5,10 +5,12 @@ export const AboutMe = () => {
     <div className='aboutMe'>
 
         <div className="text">
+            /* <br />
             * About Me <br />
             * Hi, I'm Bryan. A multi-talent human with <br />
             * More of 3 years of experience working with <br />
-            * Frontend and backend technologies
+            * Frontend and backend technologies. <br />   
+            */
         </div>
 
     </div>
