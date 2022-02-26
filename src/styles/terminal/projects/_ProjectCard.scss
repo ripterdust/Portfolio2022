@@ -66,10 +66,10 @@
         .link{
             padding: .5em;
             border-radius: 1em;
-            border: 1px solid $border;
+            border: 1px solid $blue;
             font-size: 13px;
             &:hover{
-                background: $border;
+                background: $blue;
                 color: white;
             }
         }
