@@ -2,4 +2,18 @@
     background: $base-color;
     height: 100%;
     padding: 1em 1.5em;
+    ul {
+        li{
+            margin-bottom: 1px;
+            cursor: pointer;
+        }
+    }
+    .parentList{
+        margin-top: 1em;
+        
+        .childList{
+            padding: 2px .5em;
+        }
+    }
+
 }
