@@ -15,9 +15,9 @@ export const AboutMe = () => {
 
         <div className="technologies">
             <i class="fa-brands fa-js"></i>
-            <i class="fa-brands fa-python"></i>
             <i class="fa-brands fa-react"></i>
             <i class="fa-brands fa-node"></i>
+            <i class="fa-brands fa-python"></i>
             <i class="fa-brands fa-git"></i>
             <i class="fa-solid fa-database"></i>        
         </div>
