@@ -26,10 +26,23 @@
             display: flex;
             opacity: 0;
             transition: .2s ease-in-out;
+            span{
+                padding: 1em;
+                background: $blue;
+                transition: .2s ease-in-out;
+                opacity: 0;
+                border-radius: 1em;
+                color: white;
+                font-size: 15px;
+            }
         }
 
         &:hover .link{
             opacity: 1;
+
+            span{
+                opacity: 1;
+            }
         }
     }
     img {
