@@ -6,7 +6,7 @@ export const projectList = [
         repo: 'https://github.com/ripterdust/TipCalculator'
     },
     {
-        name: 'Tip-Calculator',
+        name: 'Rick & Morty API',
         img: '/img/r&m.png',
         repo: 'https://github.com/ripterdust/rickAndMorty',
         link: 'https://ripterdust.github.io/rickAndMorty/'
