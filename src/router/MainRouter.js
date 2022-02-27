@@ -13,7 +13,7 @@ export const MainRouter = () => {
             <Nav/>  
             <div className="views">
             <Routes>
-                <Route path='/' element={ <Hello/> } />
+                <Route path='Portfolio2022/' element={ <Hello/> } />
                 <Route path="project" element={ <Projects/> } />
                 <Route path="about" element={ <About/> } />
             </Routes>
