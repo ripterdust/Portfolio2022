@@ -7,8 +7,9 @@ export const projectList = [
     },
     {
         name: 'Tip-Calculator',
-        img: '/img/tip-calculator.png',
-        repo: 'https://github.com/ripterdust/TipCalculator'
+        img: '/img/r&m.png',
+        repo: 'https://github.com/ripterdust/rickAndMorty',
+        link: 'https://ripterdust.github.io/rickAndMorty/'
     },
     {
         name: 'Tip-Calculator',
