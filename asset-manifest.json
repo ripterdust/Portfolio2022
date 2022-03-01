@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/Portfolio2022/static/css/main.dc9d4f66.css",
-    "main.js": "/Portfolio2022/static/js/main.e5c5c640.js",
+    "main.js": "/Portfolio2022/static/js/main.a6607270.js",
+    "static/media/r&m.png": "/Portfolio2022/static/media/r&m.12ac8be66a9100cb278c.png",
+    "static/media/tip-calculator.png": "/Portfolio2022/static/media/tip-calculator.afe03666ca6d577010c5.png",
     "static/media/wallpaper.jpg": "/Portfolio2022/static/media/wallpaper.af879b37a6a9289b77c9.jpg",
     "index.html": "/Portfolio2022/index.html",
     "main.dc9d4f66.css.map": "/Portfolio2022/static/css/main.dc9d4f66.css.map",
-    "main.e5c5c640.js.map": "/Portfolio2022/static/js/main.e5c5c640.js.map"
+    "main.a6607270.js.map": "/Portfolio2022/static/js/main.a6607270.js.map"
   },
   "entrypoints": [
     "static/css/main.dc9d4f66.css",
-    "static/js/main.e5c5c640.js"
+    "static/js/main.a6607270.js"
   ]
 }
