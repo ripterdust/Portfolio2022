@@ -1,13 +1,17 @@
+import RickAndMorty from '../assets/r&m.png';
+import tipCalculator from '../assets/tip-calculator.png';
+
+
 export const projectList = [
     {
         name: 'Tip-Calculator',
-        img: '/img/tip-calculator.png',
+        img: tipCalculator,
         link: 'https://ripterdust.github.io/TipCalculator/',
         repo: 'https://github.com/ripterdust/TipCalculator'
     },
     {
         name: 'Rick & Morty API',
-        img: '/img/r&m.png',
+        img: RickAndMorty,
         repo: 'https://github.com/ripterdust/rickAndMorty',
         link: 'https://ripterdust.github.io/rickAndMorty/'
     },
