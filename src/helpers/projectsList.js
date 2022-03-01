@@ -8,8 +8,7 @@ export const projectList = [
         img: tipCalculator,
         link: 'https://ripterdust.github.io/TipCalculator/',
         repo: 'https://github.com/ripterdust/TipCalculator'
-    },
-    {
+    },{
         name: 'Rick & Morty API',
         img: RickAndMorty,
         repo: 'https://github.com/ripterdust/rickAndMorty',
@@ -17,37 +16,22 @@ export const projectList = [
     },
     {
         name: 'Tip-Calculator',
-        img: '/img/tip-calculator.png',
+        img: tipCalculator,
         link: 'https://ripterdust.github.io/TipCalculator/',
         repo: 'https://github.com/ripterdust/TipCalculator'
-    },
-    {
+    },{
         name: 'Tip-Calculator',
-        img: '/img/tip-calculator.png',
+        img: tipCalculator,
         link: 'https://ripterdust.github.io/TipCalculator/',
         repo: 'https://github.com/ripterdust/TipCalculator'
-    },
-    {
+    },{
         name: 'Tip-Calculator',
-        img: '/img/tip-calculator.png',
+        img: tipCalculator,
         link: 'https://ripterdust.github.io/TipCalculator/',
         repo: 'https://github.com/ripterdust/TipCalculator'
-    },
-    {
+    },{
         name: 'Tip-Calculator',
-        img: '/img/tip-calculator.png',
-        link: 'https://ripterdust.github.io/TipCalculator/',
-        repo: 'https://github.com/ripterdust/TipCalculator'
-    },
-    {
-        name: 'Tip-Calculator',
-        img: '/img/tip-calculator.png',
-        link: 'https://ripterdust.github.io/TipCalculator/',
-        repo: 'https://github.com/ripterdust/TipCalculator'
-    },
-    {
-        name: 'Tip-Calculator',
-        img: '/img/tip-calculator.png',
+        img: tipCalculator,
         link: 'https://ripterdust.github.io/TipCalculator/',
         repo: 'https://github.com/ripterdust/TipCalculator'
     }
