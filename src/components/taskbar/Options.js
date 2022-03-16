@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export const Options = () => {
-  return (
-    <div>Options</div>
-  )
-}
+  return <div>Options</div>;
+};
