@@ -9,7 +9,7 @@ function App() {
         <i className="fa-solid fa-spinner"></i>
         Turning On
       </div>
-      <div className="turnOff">
+      <div className="turnOff hiden">
         <i className="fa-solid fa-bed"></i>
         Good Bye
       </div>
