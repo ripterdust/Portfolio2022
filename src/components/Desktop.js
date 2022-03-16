@@ -16,9 +16,14 @@ export const Desktop = () => {
           [Terminal]
         </div>
 
-        <a className="icon" href={Pdf} target="_blank" rel="noreferrer">
+        <a
+          className="icon curriculum"
+          href={Pdf}
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fa-solid fa-file-pdf"></i>
-          Files
+          Curriculum
         </a>
       </div>
 

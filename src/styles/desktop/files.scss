@@ -1,9 +1,10 @@
-.files {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 90%;
-    height: calc(100% - 10em);
-    background: $base-terminal;
-    transform: translate(-50%, -50%);
+.curriculum {
+  padding-top: 1em;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  i {
+    font-size: 30px;
+    margin-bottom: 0.3em;
+  }
 }
