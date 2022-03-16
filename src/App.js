@@ -10,8 +10,8 @@ function App() {
         Turning On
       </div>
       <div className="turnOff">
-        <i className="fa-solid fa-spinner"></i>
-        Turning Off
+        <i className="fa-solid fa-bed"></i>
+        Good Bye
       </div>
       <Desktop />
       <MainRouter />
