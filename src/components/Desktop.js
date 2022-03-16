@@ -1,6 +1,5 @@
 import React from "react";
 import { handleClick } from "../helpers/desktopHelper";
-import { Files } from "./Desktop/Files";
 import Pdf from "../assets/Curriculum.pdf";
 export const Desktop = () => {
   return (
@@ -26,8 +25,6 @@ export const Desktop = () => {
           Curriculum
         </a>
       </div>
-
-      <Files />
     </div>
   );
 };
