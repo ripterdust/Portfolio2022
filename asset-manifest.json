@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio2022/static/css/main.ce0bf616.css",
-    "main.js": "/Portfolio2022/static/js/main.64d2459f.js",
+    "main.js": "/Portfolio2022/static/js/main.574955e6.js",
     "static/media/r&m.png": "/Portfolio2022/static/media/r&m.12ac8be66a9100cb278c.png",
     "static/media/Curriculum.pdf": "/Portfolio2022/static/media/Curriculum.d4deffd12b66e0c59934.pdf",
     "static/media/tip-calculator.png": "/Portfolio2022/static/media/tip-calculator.afe03666ca6d577010c5.png",
     "static/media/wallpaper.jpg": "/Portfolio2022/static/media/wallpaper.af879b37a6a9289b77c9.jpg",
     "index.html": "/Portfolio2022/index.html",
     "main.ce0bf616.css.map": "/Portfolio2022/static/css/main.ce0bf616.css.map",
-    "main.64d2459f.js.map": "/Portfolio2022/static/js/main.64d2459f.js.map"
+    "main.574955e6.js.map": "/Portfolio2022/static/js/main.574955e6.js.map"
   },
   "entrypoints": [
     "static/css/main.ce0bf616.css",
-    "static/js/main.64d2459f.js"
+    "static/js/main.574955e6.js"
   ]
 }
