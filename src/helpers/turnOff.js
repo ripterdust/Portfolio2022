@@ -3,6 +3,6 @@ export const turnOff = () => {
   turn.remove("hiden");
 
   setTimeout(() => {
-    window.location.replace("http://www.google.com");
+    window.location.reload();
   }, 2000);
 };
