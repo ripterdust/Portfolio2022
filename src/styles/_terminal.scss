@@ -3,6 +3,7 @@
   color: $text-ligth;
   border-radius: 5px;
   position: absolute;
+  transition: 0.3s;
 }
 
 .small {
@@ -13,4 +14,6 @@
   height: calc(100vh - 10em);
 }
 .big {
+  width: 100%;
+  height: calc(100% - 3em);
 }
